@@ -48,7 +48,7 @@ class SecurityModule(environment: Environment, configuration: Configuration) ext
     casClient.setCasProxyReceptor(casProxyReceptor)*/
 
     // SAML
-    val cfg = new SAML2ClientConfiguration("resource:samlKeystore.jks", "pac4j-demo-passwd", "pac4j-demo-passwd", "resource:openidp-feide.xml")
+    val cfg = new SAML2ClientConfiguration("resource:samlKeystore.jks", "pac4j-demo-passwd", "pac4j-demo-passwd", "resource:okta.xml")
     cfg.setMaximumAuthenticationLifetime(3600)
     cfg.setServiceProviderEntityId("urn:mace:saml:pac4j.org")
     cfg.setServiceProviderMetadataPath(new File("target", "sp-metadata.xml").getAbsolutePath())

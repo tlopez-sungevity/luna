@@ -5,11 +5,6 @@
 # Home page
 GET         /                                 controllers.Application.index()
 GET         /loginForm                        controllers.Application.loginForm()
-GET         /facebook/index.html              controllers.Application.facebookIndex()
-GET         /facebookadmin/index.html         controllers.Application.facebookAdminIndex()
-GET         /facebookcustom/index.html        controllers.Application.facebookCustomIndex()
-GET         /twitter/index.html               controllers.Application.twitterIndex()
-GET         /form/index.html                  controllers.Application.formIndex()
 GET         /form/index.html.json             controllers.Application.formIndexJson()
 GET         /basicauth/index.html             controllers.Application.basicauthIndex()
 GET         /cas/index.html                   controllers.Application.casIndex()

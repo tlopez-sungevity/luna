@@ -7,35 +7,13 @@ import org.pac4j.core.profile._
 import org.pac4j.play.scala._
 import play.api.libs.json.Json
 
+
+
 class Application extends Controller with Security[CommonProfile] {
 
   def index = Action { request =>
     val profile = getUserProfile(request)
     Ok(views.html.index(profile))
-  }
-
-  def facebookIndex = RequiresAuthentication("FacebookClient") { profile =>
-    Action { request =>
-      Ok(views.html.protectedIndex(profile))
-    }
-  }
-
-  def facebookAdminIndex = RequiresAuthentication("FacebookClient", "admin") { profile =>
-    Action { request =>
-      Ok(views.html.protectedIndex(profile))
-    }
-  }
-
-  def facebookCustomIndex = RequiresAuthentication("FacebookClient", "custom") { profile =>
-    Action { request =>
-      Ok(views.html.protectedIndex(profile))
-    }
-  }
-
-  def twitterIndex = RequiresAuthentication("TwitterClient,FacebookClient") { profile =>
-    Action { request =>
-      Ok(views.html.protectedIndex(profile))
-    }
   }
 
   def protectedIndex = RequiresAuthentication { profile =>
