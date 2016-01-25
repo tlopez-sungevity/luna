@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/exk5p6a6w6dsQWGF00h7"><md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDpDCCAoygAwIBAgIGAVJldmrvMA0GCSqGSIb3DQEBBQUAMIGSMQswCQYDVQQGEwJVUzETMBEG
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/exk3xkvhyo0ZPhX0D0x7"><md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDojCCAoqgAwIBAgIGAU0mJS5WMA0GCSqGSIb3DQEBBQUAMIGRMQswCQYDVQQGEwJVUzETMBEG
   A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
-  MBIGA1UECwwLU1NPUHJvdmlkZXIxEzARBgNVBAMMCmRldi0zMTU4ODExHDAaBgkqhkiG9w0BCQEW
-  DWluZm9Ab2t0YS5jb20wHhcNMTYwMTIxMTgzMjI1WhcNMjYwMTIxMTgzMzI1WjCBkjELMAkGA1UE
-  BhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNV
-  BAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRMwEQYDVQQDDApkZXYtMzE1ODgxMRwwGgYJ
-  KoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
-  odb9syrwZVOjMrES5qHWHcNmLvsemHj3/H3kp9R3LH8ywXy5TfQrP02l86wCXuHSGkcknB2kbKyk
-  jsElnUmPaRO23xu3fdHzyOgGDiBV1X2vpvB8d20mgxDB6kw88twT3R3Ln82JFyHW7PnLUnIzfo57
-  /IOElaBaV/83FIfjV1oJxPoX0g2RY09CrPzRmoCzKGwD1YUlNf/C88Tg2e5POeaQ7jwP5j+D6bWq
-  q7rJKnUbRHnovVctiYISKC0WMiJCPC0+Od/xd7LZdsioSkEvsZ3X8wMT8AATPcs+YlUOcr9xDQwi
-  rVHn6+UNJGCjQQAr9eoCxCMI4lRBuDS09BA8xwIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQBcWcF2
-  iIGBDaXr7ZOBXMTM+beAAWsqLwUeWjEckYSo1w8S/l9xyh2a2xi7xI5+qHIT8LE7o0Hauzn85aSD
-  6MIE4VwIlFoS0XmVQlPJ3eMHU7v9p4CuU0KoEU9+EwSXUffFfklO6VzUe4QERT/wt5YCq1raSuoQ
-  tUsk/miF2BrbnO2L2DhICExqJwMSsYDIk4oaDoYxQwjOepbhJLVmnOPkaM8UD6zFVsLqvbVpmPqL
-  P+K37hsiDlTZ+OeHKYPJAbxJ2xhOJYTKZR24fo2HG9eG2LNNdAGNLePH/uGbyZafT7V+DjNIepMG
-  XI+Xdp+bUtipqv8cYoeEivkQxiI0h5FD</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-315881.oktapreview.com/app/sungevitydev315881_adminms_1/exk5p6a6w6dsQWGF00h7/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-315881.oktapreview.com/app/sungevitydev315881_adminms_1/exk5p6a6w6dsQWGF00h7/sso/saml"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:9000/callback?client_name=Saml2Client" index="0"/></md:IDPSSODescriptor></md:EntityDescriptor>
+  MBIGA1UECwwLU1NPUHJvdmlkZXIxEjAQBgNVBAMMCXN1bmdldml0eTEcMBoGCSqGSIb3DQEJARYN
+  aW5mb0Bva3RhLmNvbTAeFw0xNTA1MDUyMjEzNDBaFw00NTA1MDUyMjE0NDBaMIGRMQswCQYDVQQG
+  EwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UE
+  CgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxEjAQBgNVBAMMCXN1bmdldml0eTEcMBoGCSqG
+  SIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAInJ
+  NTy0Jogvi4SkChCatcKsOUXNAS5YjlY5KZCpI8LNTOuyT5bN75d7XIjbJFILBlVCEkVrpkT2Swnc
+  5gU/jOQuSdjdnK87pBDiXxPQ8t8KdIzJxj0uL9+PeFeUjzKZuMCfqKPRsQJ53Php6MSIlFrJDqda
+  ep/y6mAMlwHyoOENxxn7E983rhiY6+aBD2t+feLZradNG7kE91dQSR6VNYWQronEIErylIvjfq8M
+  VUeIkRo1hcKFokJdwgeq2iqnO43Nf/GnadMtm5FQMifqxsjZSJ05khaNP/84eiiXsB0sLYyMPeT0
+  XnmDHE/gvCnF+M9RcRgAq4SC7dvpRuD8H60CAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAOnyXMs6g
+  yqqFvT1ouPSLFfrIYfn77+RF7x6eIXSK42zvRxYshKqueV3sN6SD99s7z0uyXMvuLCATY0DSPFCw
+  UhS6ubGFTdhzJ3GHeErEe1jCAcPEAbz4TT92GSKqIs6pquccpoqW//1bCmcwEvjGHU8q78sKyD4d
+  rUkd5la7QHeb07X63kBMrgpbd4RhpsejQ2jJ911zg4C41gpgOxjPvBs43Dk2FotVkl4i80SsTXMj
+  GGZFtszr8kvFcTFWimNHdv3xFTMhApZqVkdxylK54U6veLAwxUO7Dp0GUs0BrJRm1bnttEiLwJOx
+  ypCWOuhh30UJBkazm+FNz2VoxN9miA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sungevity.okta.com/app/sungevity_artemis_1/exk3xkvhyo0ZPhX0D0x7/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sungevity.okta.com/app/sungevity_artemis_1/exk3xkvhyo0ZPhX0D0x7/sso/saml"/></md:IDPSSODescriptor></md:EntityDescriptor>
